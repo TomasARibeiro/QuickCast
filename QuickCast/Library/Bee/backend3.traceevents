@@ -1,0 +1,587 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1736103866169077, "dur":24147, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103866193229, "dur":168, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103866193450, "dur":491, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103866195313, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1736103866193958, "dur":2644, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103866196603, "dur":10485359, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876681964, "dur":70, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876682034, "dur":230, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876682426, "dur":71, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876682557, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876682664, "dur":1602, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1736103866194014, "dur":2633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736103866196650, "dur":1022, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736103866197672, "dur":1173, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736103866198845, "dur":6578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736103866205499, "dur":1872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736103866207456, "dur":476869, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866207377, "dur":476950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866684357, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866687662, "dur":113444, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866687651, "dur":113457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866801133, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736103866802297, "dur":9879663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736103866193950, "dur":2677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736103866196631, "dur":1727, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736103866198358, "dur":6930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736103866205339, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736103866206055, "dur":1383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736103866207449, "dur":189666, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866207438, "dur":189679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866397179, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866400191, "dur":64923, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866400172, "dur":64944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866465135, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866466209, "dur":91021, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866466197, "dur":91035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866557249, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866559029, "dur":131165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866559009, "dur":131186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866690208, "dur":8130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866698358, "dur":50578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866698343, "dur":50595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866748951, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866750145, "dur":26952, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866749922, "dur":27177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866777115, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736103866778269, "dur":9903695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736103866193912, "dur":2700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736103866198702, "dur":573, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":3, "ts":1736103866199275, "dur":4743, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":3, "ts":1736103866204018, "dur":61, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":3, "ts":1736103866204079, "dur":807, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":3, "ts":1736103866204931, "dur":143, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":3, "ts":1736103866205074, "dur":122, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":3, "ts":1736103866196616, "dur":8670, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736103866205410, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/6507406529063604601.rsp" }}
+,{ "pid":12345, "tid":3, "ts":1736103866205502, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/GitStuff/QuickCast/QuickCast/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":3, "ts":1736103866206229, "dur":501, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736103866207396, "dur":202933, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866410333, "dur":170497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866580832, "dur":109254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866690097, "dur":22594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866712695, "dur":91191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866803895, "dur":77425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866881346, "dur":1500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866882857, "dur":38984, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866921897, "dur":14112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736103866207371, "dur":728661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1736103866964970, "dur":9716830, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1736103866193941, "dur":2678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736103866196624, "dur":1735, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736103866198359, "dur":6934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736103866205297, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1736103866205419, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736103866205535, "dur":1855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736103866207412, "dur":53886, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866207391, "dur":53908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866261343, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866265062, "dur":52794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866265043, "dur":52815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866317879, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866321005, "dur":104431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866320986, "dur":104451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866425457, "dur":8514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866433995, "dur":64458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866433975, "dur":64480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866498480, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866500365, "dur":315697, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866500339, "dur":315725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866816085, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736103866816954, "dur":9865030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866193975, "dur":2658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866196636, "dur":1057, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866197694, "dur":1137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866198832, "dur":6596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866205501, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1736103866205564, "dur":1852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736103866207445, "dur":135607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866207417, "dur":135637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866343102, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866345957, "dur":199925, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866345934, "dur":199950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866545912, "dur":5193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866551146, "dur":33849, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866551108, "dur":33890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866585022, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866586194, "dur":105100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866586179, "dur":105116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866691309, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866692645, "dur":42475, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866692631, "dur":42491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866735147, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866736584, "dur":199422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866736569, "dur":199439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866936024, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736103866936992, "dur":9745024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866194006, "dur":2635, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866196643, "dur":1352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866197995, "dur":939, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866198934, "dur":6362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866205301, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1736103866205405, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866205511, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866205601, "dur":1791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736103866207426, "dur":89530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866207395, "dur":89562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866296982, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866298069, "dur":87273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866298055, "dur":87289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866385474, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866391868, "dur":163823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866391836, "dur":163858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866555719, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866558082, "dur":116888, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866558062, "dur":116911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866674994, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866677277, "dur":38412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866677261, "dur":38429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866715706, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866716716, "dur":122202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866716702, "dur":122218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866838939, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736103866839631, "dur":9842365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866194036, "dur":2626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866196665, "dur":1433, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866198098, "dur":872, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866198970, "dur":6440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866205416, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1736103866205501, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1736103866205607, "dur":1811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736103866207456, "dur":210090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866207419, "dur":210129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866417837, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866420881, "dur":37057, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866420865, "dur":37075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866457956, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866460476, "dur":118922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866460443, "dur":118956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866579414, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866581761, "dur":52668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866581743, "dur":52687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866634440, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866635650, "dur":32121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866635625, "dur":32148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866667802, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866669563, "dur":47499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866669539, "dur":47524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866717077, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866718052, "dur":201762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866718039, "dur":201776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866919832, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736103866920553, "dur":9761437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866194067, "dur":2602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866196671, "dur":1132, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866197804, "dur":1202, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866199006, "dur":6426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866205432, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1736103866205519, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1736103866205614, "dur":1819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736103866207451, "dur":339128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866207434, "dur":339147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866546663, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866549601, "dur":37789, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866549573, "dur":37819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866587422, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866589273, "dur":76496, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866589257, "dur":76514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866665800, "dur":5464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866671296, "dur":89664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866671267, "dur":89695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866760984, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736103866762714, "dur":9919318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866194088, "dur":2609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866196699, "dur":1301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866198001, "dur":490, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866198492, "dur":6807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866205301, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1736103866205392, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866205505, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1736103866205619, "dur":1809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736103866207473, "dur":135907, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866207430, "dur":135952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866343443, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866346424, "dur":35852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866346410, "dur":35868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866382304, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866384364, "dur":209702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866384349, "dur":209719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866594088, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866596298, "dur":89991, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866596283, "dur":90009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866687603, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866688783, "dur":29479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866688769, "dur":29494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866718276, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866719093, "dur":56699, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866719079, "dur":56716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866775821, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736103866777728, "dur":9904243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736103866194126, "dur":2605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736103866196733, "dur":1475, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736103866198208, "dur":7081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736103866205361, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1736103866205487, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1736103866205578, "dur":1834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736103866207437, "dur":88516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866207413, "dur":88543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866296010, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866297346, "dur":125430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866297330, "dur":125448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866422802, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866424157, "dur":46338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866424140, "dur":46357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866470514, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866472032, "dur":95691, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866471995, "dur":95729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866567739, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866569915, "dur":119343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866569900, "dur":119359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866689274, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866691631, "dur":159354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866691607, "dur":159379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866851004, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736103866851665, "dur":9830310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866194147, "dur":2628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866196778, "dur":1253, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866198032, "dur":215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866198248, "dur":7112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866205361, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1736103866205491, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1736103866205589, "dur":1842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736103866207466, "dur":138452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866207436, "dur":138485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866345983, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866349881, "dur":30490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866349855, "dur":30518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866380389, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866383987, "dur":48989, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866383971, "dur":49007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866434431, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866435743, "dur":153031, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866435719, "dur":153056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866588793, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866591619, "dur":42801, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866591434, "dur":42988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866634440, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866635856, "dur":78064, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866635843, "dur":78078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866713938, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866715428, "dur":165914, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866715403, "dur":165941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866881370, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736103866882152, "dur":9799897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866194170, "dur":2612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866196793, "dur":1339, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866198133, "dur":924, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866199057, "dur":6360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866205423, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866205550, "dur":1857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736103866207427, "dur":104166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866207408, "dur":104189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866311676, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866314110, "dur":67453, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866314099, "dur":67466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866381595, "dur":8472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866390089, "dur":77966, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866390072, "dur":77984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866468519, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866469382, "dur":210469, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866469370, "dur":210484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866679928, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866680906, "dur":132530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866680895, "dur":132543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866813473, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736103866814776, "dur":9867269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866194195, "dur":2605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866196803, "dur":1425, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866198228, "dur":7070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866205299, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1736103866205499, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1736103866205559, "dur":1864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866207442, "dur":96157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866207424, "dur":96178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866314649, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1736103866308001, "dur":6780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866314802, "dur":52991, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866314786, "dur":53009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866367819, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866369060, "dur":88328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866369042, "dur":88348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866457408, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866459435, "dur":143310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866459332, "dur":143415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866602824, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866604481, "dur":83247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866604470, "dur":83259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866687745, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866689518, "dur":193333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866689507, "dur":193346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866882865, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1736103866883571, "dur":9798407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736103866194218, "dur":2616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736103866196838, "dur":1580, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736103866198419, "dur":6931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736103866205350, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1736103866205487, "dur":1922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1736103866207439, "dur":57525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866207410, "dur":57557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866265025, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866267395, "dur":56565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866267383, "dur":56578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866323981, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866324952, "dur":55788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866324940, "dur":55802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866380767, "dur":11716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866392509, "dur":70090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866392491, "dur":70111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866462622, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866463592, "dur":89286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866463582, "dur":89299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866552902, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866554143, "dur":34670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866554129, "dur":34686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866588833, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866589941, "dur":48757, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866589900, "dur":48800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866638756, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866639692, "dur":37136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866639681, "dur":37149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866676859, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866678417, "dur":34211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866678405, "dur":34224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866712650, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866714501, "dur":104297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866714489, "dur":104311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866818820, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1736103866819543, "dur":9862499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736103866194239, "dur":2629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736103866196871, "dur":1351, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736103866198222, "dur":7069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736103866205294, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1736103866205481, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1736103866205543, "dur":1837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1736103866207400, "dur":104362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866207381, "dur":104383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866311785, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866314033, "dur":78409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866313999, "dur":78446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866392467, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866394996, "dur":142299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866394983, "dur":142315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866537331, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866539076, "dur":37557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866539064, "dur":37571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866576670, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866578008, "dur":81630, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866577992, "dur":81649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866659664, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866660868, "dur":107543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866660856, "dur":107557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866768434, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1736103866769796, "dur":9912176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866194261, "dur":2612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866196882, "dur":608, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866197491, "dur":932, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866198423, "dur":6967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866205391, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1736103866205497, "dur":1876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866207403, "dur":364407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866207373, "dur":364439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866571843, "dur":7608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866579471, "dur":43893, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866579454, "dur":43913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866623388, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866626165, "dur":45817, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866626146, "dur":45838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866672003, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866672968, "dur":96488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866672956, "dur":96502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866770285, "dur":380, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1736103866769500, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1736103866770680, "dur":9911293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736103866194302, "dur":2590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736103866196895, "dur":1805, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736103866198700, "dur":6720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736103866205505, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/level0" }}
+,{ "pid":12345, "tid":17, "ts":1736103866205571, "dur":1831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1736103866207427, "dur":52804, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866207403, "dur":52837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866261078, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866265337, "dur":54431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866265325, "dur":54445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866319790, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866321330, "dur":78962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866321312, "dur":78982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866400308, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866401903, "dur":54225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866401854, "dur":54276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866456209, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866457234, "dur":250146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866457222, "dur":250160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866707402, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866709206, "dur":73954, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866709190, "dur":73972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866783215, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1736103866784543, "dur":9897465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866194316, "dur":2602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866196920, "dur":823, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866197743, "dur":1001, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866198744, "dur":6672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866205417, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866205534, "dur":1860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1736103866207408, "dur":113657, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866207395, "dur":113672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866321093, "dur":14935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866336054, "dur":62029, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866336034, "dur":62051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866398107, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866399180, "dur":54109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866399166, "dur":54125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866453316, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866454243, "dur":175135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866454228, "dur":175153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866629400, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866632743, "dur":144264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866632731, "dur":144278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866777029, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1736103866778601, "dur":9903362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866194332, "dur":2596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866196932, "dur":970, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866197902, "dur":868, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866198770, "dur":6532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866205303, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1736103866205396, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1736103866205494, "dur":1916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1736103866207434, "dur":52193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866207411, "dur":52219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866260878, "dur":17271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866278189, "dur":179271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866278153, "dur":179309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866457475, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866458684, "dur":67580, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866458675, "dur":67591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866526289, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866527437, "dur":276500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866527426, "dur":276513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866803986, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1736103866805522, "dur":9876436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736103866194353, "dur":2581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736103866196936, "dur":1268, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736103866198204, "dur":7144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736103866205407, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866205491, "dur":1885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1736103866207396, "dur":58041, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866207377, "dur":58062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866265453, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866270000, "dur":41398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866269986, "dur":41415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866311432, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866313973, "dur":65763, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866313940, "dur":65799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866379766, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866383949, "dur":30416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866383934, "dur":30434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866414388, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866415361, "dur":73396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866415334, "dur":73424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866488778, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866491024, "dur":207731, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866491010, "dur":207747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866698792, "dur":4939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866703748, "dur":44321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866703736, "dur":44334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866748086, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866748879, "dur":33775, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866748868, "dur":33787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866782671, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1736103866783582, "dur":9898387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866194378, "dur":2561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866196942, "dur":1118, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866198060, "dur":839, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866198900, "dur":6499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866205485, "dur":1889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1736103866207411, "dur":319632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866207375, "dur":319671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866527087, "dur":7013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866534119, "dur":105069, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866534106, "dur":105084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866639214, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866640739, "dur":39858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866640721, "dur":39878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866681027, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866681896, "dur":99248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866681886, "dur":99260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866781187, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":21, "ts":1736103866782560, "dur":9899408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866194404, "dur":2540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866196953, "dur":1229, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866198182, "dur":75, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866198257, "dur":7037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866205481, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/resources.assets" }}
+,{ "pid":12345, "tid":22, "ts":1736103866205552, "dur":1862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1736103866207435, "dur":58009, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866207418, "dur":58028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866265483, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866270859, "dur":122159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866270848, "dur":122172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866393036, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866396168, "dur":71219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866396151, "dur":71238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866467442, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866468386, "dur":208658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866468374, "dur":208672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866677058, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866678433, "dur":243410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866678422, "dur":243422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866921855, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":22, "ts":1736103866922650, "dur":9759316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866194455, "dur":2508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866196967, "dur":1197, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866198165, "dur":882, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866199047, "dur":6390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866205488, "dur":1887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1736103866207394, "dur":53466, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866207376, "dur":53485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866261099, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866264477, "dur":313975, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866264395, "dur":314058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866578474, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866580997, "dur":30865, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866580983, "dur":30881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866611889, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866612986, "dur":37335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866612975, "dur":37348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866650345, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866651563, "dur":40425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866651550, "dur":40440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866692010, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866693627, "dur":54038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866693602, "dur":54065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866747689, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866748734, "dur":118959, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866748722, "dur":118973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866867712, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":23, "ts":1736103866868341, "dur":9813684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736103866194492, "dur":2477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736103866196969, "dur":1552, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736103866198521, "dur":6882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736103866205409, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1736103866205507, "dur":1870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1736103866207403, "dur":75971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866207378, "dur":75998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866283420, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866284384, "dur":194137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866284373, "dur":194151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866478558, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866479783, "dur":86725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866479771, "dur":86739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866566533, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866567626, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866568915, "dur":239243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866568905, "dur":239255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866808177, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GameBuilds/QuickCast/4/QuickCast_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1736103866809104, "dur":9872947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736103876686139, "dur":662, "ph":"X", "name": "ProfilerWriteOutput" }
+,
