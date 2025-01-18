@@ -44,6 +44,7 @@ public class BossController : MonoBehaviour
 	[SerializeField] private bool _isLastLevel = false;
 
 	private GameObject _player;
+	private Vector3 _dashTarget, _dashDirection;
 
 	public int Code { get; private set; }
 
@@ -75,6 +76,14 @@ public class BossController : MonoBehaviour
 		if (!_isDashing && !_isOnCooldown)
 		{
 			MoveToPlayerRange();
+		}
+	}
+
+	private void FixedUpdate()
+	{
+		if (_isDashing)
+		{
+			DashToTarget(_dashTarget, _dashDirection);
 		}
 	}
 
@@ -150,21 +159,19 @@ public class BossController : MonoBehaviour
 
 	private IEnumerator PrepareDashAttack()
 	{
-		_isDashing = true;
-
 		//calculate the direction towards the player
-		Vector3 dashDirection = (_player.transform.position - transform.position).normalized;
+		_dashDirection = (_player.transform.position - transform.position).normalized;
 
 		//calculate the initial target position
-		Vector3 dashTarget = _player.transform.position;
+		_dashTarget = _player.transform.position;
 
 		//overshoot the target a little
-		dashTarget += dashDirection * _overshootDistance;
+		_dashTarget += _dashDirection * _overshootDistance;
 
 		//show a visual indicator of the dash path
 		_lineRenderer.enabled = true;
 		_lineRenderer.SetPosition(0, transform.position);
-		_lineRenderer.SetPosition(1, dashTarget);
+		_lineRenderer.SetPosition(1, _dashTarget);
 
 		//start flickering the warning outline
 		StartCoroutine(FlickerWarningOutline());
@@ -175,22 +182,27 @@ public class BossController : MonoBehaviour
 		//stop the warning effect
 		_warningOutlineRenderer.enabled = false;
 
-		//perform the dash until the boss reaches the overshot target position
-		while (Vector3.Distance(transform.position, dashTarget) > 0.1f)
-		{
-			transform.position += dashDirection * _dashSpeed * Time.deltaTime;
-			yield return null;
-		}
-
-		//reset visuals and state after the dash
-		_lineRenderer.enabled = false;
-		_isDashing = false;
-		_isInRange = false;
-
-		//start cooldown before the boss can move again
-		StartCoroutine(Cooldown());
+		_isDashing = true;
 	}
 
+	private void DashToTarget(Vector3 dashTarget, Vector3 dashDirection)
+	{
+		//perform the dash until the boss reaches the overshot target position
+		if (Vector3.Distance(transform.position, dashTarget) > 0.5f)
+		{
+			transform.position += dashDirection * _dashSpeed * Time.fixedDeltaTime;
+		}
+		else
+		{
+			//reset visuals and state after the dash
+			_lineRenderer.enabled = false;
+			_isDashing = false;
+			_isInRange = false;
+
+			//start cooldown before the boss can move again
+			StartCoroutine(Cooldown());
+		}
+	}
 
 	private IEnumerator FlickerWarningOutline()
 	{

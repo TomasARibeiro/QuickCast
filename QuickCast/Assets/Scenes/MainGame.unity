@@ -4437,10 +4437,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentState: 0
   _previousState: 0
-  textobject: {fileID: 0}
   _gameTime: 0
   _necessaryEnemyKills: 10
-  _enemiesKilled: 0
+  _enemiesKilled: 10
   _necessaryBossKills: 7
   _bossesKilled: 0
 --- !u!4 &1284933543
