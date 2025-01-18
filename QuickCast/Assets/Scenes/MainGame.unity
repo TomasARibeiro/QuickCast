@@ -4439,7 +4439,7 @@ MonoBehaviour:
   _previousState: 0
   _gameTime: 0
   _necessaryEnemyKills: 10
-  _enemiesKilled: 10
+  _enemiesKilled: 0
   _necessaryBossKills: 7
   _bossesKilled: 0
 --- !u!4 &1284933543

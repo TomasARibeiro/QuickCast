@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -343,19 +342,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1814}
+      Script: {instanceID: 31296}
     - Class: 114
-      Script: {instanceID: 31298}
+      Script: {instanceID: 31790}
     - Class: 114
-      Script: {instanceID: 31792}
+      Script: {instanceID: 32384}
     - Class: 114
-      Script: {instanceID: 32386}
+      Script: {instanceID: 32620}
     - Class: 114
-      Script: {instanceID: 32622}
+      Script: {instanceID: 33104}
     - Class: 114
-      Script: {instanceID: 33106}
+      Script: {instanceID: 33528}
     - Class: 114
-      Script: {instanceID: 33530}
+      Script: {instanceID: 35360}
     - Class: 114
       Script: {instanceID: 35388}
     - Class: 114
@@ -424,47 +423,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 31298}
+      Script: {instanceID: 31296}
     - Class: 114
-      Script: {instanceID: 31472}
+      Script: {instanceID: 31470}
     - Class: 114
-      Script: {instanceID: 31744}
+      Script: {instanceID: 31742}
     - Class: 114
-      Script: {instanceID: 31792}
+      Script: {instanceID: 31790}
     - Class: 114
-      Script: {instanceID: 32000}
+      Script: {instanceID: 31998}
     - Class: 114
-      Script: {instanceID: 32158}
+      Script: {instanceID: 32156}
     - Class: 114
-      Script: {instanceID: 32276}
+      Script: {instanceID: 32274}
     - Class: 114
-      Script: {instanceID: 32480}
+      Script: {instanceID: 32478}
     - Class: 114
-      Script: {instanceID: 32622}
+      Script: {instanceID: 32620}
     - Class: 114
-      Script: {instanceID: 32888}
+      Script: {instanceID: 32886}
     - Class: 114
-      Script: {instanceID: 33106}
+      Script: {instanceID: 33104}
     - Class: 114
-      Script: {instanceID: 33470}
+      Script: {instanceID: 33468}
     - Class: 114
-      Script: {instanceID: 33530}
+      Script: {instanceID: 33528}
     - Class: 114
-      Script: {instanceID: 33692}
+      Script: {instanceID: 33690}
     - Class: 114
-      Script: {instanceID: 33930}
+      Script: {instanceID: 33928}
     - Class: 114
-      Script: {instanceID: 34028}
+      Script: {instanceID: 34026}
     - Class: 114
-      Script: {instanceID: 34064}
+      Script: {instanceID: 34062}
     - Class: 114
-      Script: {instanceID: 34120}
+      Script: {instanceID: 34118}
     - Class: 114
-      Script: {instanceID: 34150}
+      Script: {instanceID: 34148}
     - Class: 114
-      Script: {instanceID: 34186}
+      Script: {instanceID: 34184}
     - Class: 114
-      Script: {instanceID: 35092}
+      Script: {instanceID: 35090}
     - Class: 114
       Script: {instanceID: 35412}
     - Class: 114
@@ -560,12 +559,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRenderPipelineAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 825fe2c921735aeab1103e2af585a653
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BossController
   - hash:
       serializedVersion: 2
       Hash: 95c8a8c68e664d4868755f06e7c55997
@@ -1238,6 +1231,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 825fe2c921735aeab1103e2af585a653
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BossController
   - hash:
       serializedVersion: 2
       Hash: b4ddc8b52e8e3d7c3199509109a2e117
@@ -2298,4 +2297,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/MainGame.unity
-  playerPath: D:/GameBuilds/QuickCast/4/QuickCast.exe
+  playerPath: D:/GameBuilds/QuickCast/6/QuickCast.exe
